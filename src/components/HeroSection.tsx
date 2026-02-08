@@ -27,17 +27,17 @@ const HeroSection = () => {
             ✨ סדנה חדשה ומיוחדת
           </span>
           <h1 className="hero-title mb-6 text-white">
-            סדנה למנהלות, גננות ומובילות כיתה
+            בין הבית למעון – לבנות גשר של אמון וביטחון
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-white">
-            תקשורת מיטיבה עם הורי הגן כבסיס ליחסי אמון וביטחון
+            סדנה למנהלות, גננות ומובילות כיתה שרוצות להפוך את ההורים לשותפים רגועים ובטוחים
           </h2>
         </div>
         
         <div className="max-w-3xl mx-auto mb-10">
           <p className="text-lg md:text-xl leading-relaxed text-white">
-            4 מפגשים פרקטיים שייתנו לך כלים אמיתיים ליצירת קשר אמפתי עם הורים, 
-            להפחתת התנגדויות ולהפיכת הקשר לשותפות שעוברת ישירות לילד.
+            5 מפגשים בני עד 90 דק׳, בקבוצה אינטימית של עד 10 משתתפות, עם כלים מעשיים לבניית אמון, 
+            להפחתת התנגדויות ולהפיכת הקשר לשותפות שמורגשת לילדים.
           </p>
         </div>
         
@@ -46,7 +46,7 @@ const HeroSection = () => {
           size="lg"
           onClick={scrollToForm}
           className="text-xl px-10 py-6 bg-cta hover:bg-cta-hover transform hover:scale-105 transition-all duration-300 shadow-2xl text-white"
-          aria-label="עבור לטופס הרשמה לסדנת תקשורת מיטיבה עם הורים"
+          aria-label="עבור לטופס הרשמה לסדנת בין הבית למעון"
         >
           אני רוצה להירשם &lt;&lt;
         </Button>

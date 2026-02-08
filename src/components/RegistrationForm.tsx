@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const RegistrationForm = () => {
-  const whatsappLink = "https://wa.me/972522880109?text=שלום%20אני%20רוצה%20להירשם%20לסדנה%20לתקשורת%20מיטיבה%20עם%20הורים";
+  const whatsappLink = "https://wa.me/972522880109?text=שלום%2C%20אני%20מעוניינת%20להירשם%20לסדנת%20%22בין%20הבית%20למעון%22";
 
   const handleWhatsAppClick = () => {
     window.open(whatsappLink, '_blank');
@@ -35,7 +35,7 @@ const RegistrationForm = () => {
               variant="cta"
               size="lg"
               className="w-full text-lg py-6"
-              aria-label="פתח וואטסאפ להרשמה לסדנת תקשורת מיטיבה עם הורים"
+              aria-label="פתח וואטסאפ להרשמה לסדנת בין הבית למעון"
             >
               שמרי לי מקום בסדנה &gt;&gt;
             </Button>

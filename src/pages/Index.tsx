@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import BenefitsSection from "@/components/BenefitsSection";
+import FirstMeeting from "@/components/FirstMeeting";
 import TargetAudience from "@/components/TargetAudience";
 import RegistrationForm from "@/components/RegistrationForm";
 import TechnicalInfo from "@/components/TechnicalInfo";
@@ -25,6 +26,7 @@ const Index = () => {
         <main id="main-content" role="main">
           <HeroSection />
           <BenefitsSection />
+          <FirstMeeting />
           <TargetAudience />
           <RegistrationForm />
           <TechnicalInfo />
